@@ -14,3 +14,5 @@ url:http://172.16.13.162:8080/SharedParkingPlace/admin/property/
 Cookie: JSESSIONID=B80BDCF5420195DCA15E78355E9E2134
 Content-Type: application/x-www-form-urlencoded; charset=UTF-8
 
+
+Cookie: JSESSIONID=FC871D72FEB570224A5A3DCC5A4B21C5
