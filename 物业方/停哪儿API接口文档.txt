@@ -1,0 +1,16 @@
+(物业方)
+
+修改
+PUT方法
+url:http://172.16.13.162:8080/SharedParkingPlace/admin/property/
+参数：uname=物业296&phone=15207696543&propertyintroduce=没有简介&propertycertificateid=没有简介&upass=没有密码&uid=5
+Cookie: JSESSIONID=B80BDCF5420195DCA15E78355E9E2134
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8	
+
+新增
+POST方法
+url:http://172.16.13.162:8080/SharedParkingPlace/admin/property/
+参数：uname=物业996&phone=19875425489&propertyintroduce=没有简介。我们就是最好的&propertycertificateid=没有证书&upass=没有密码
+Cookie: JSESSIONID=B80BDCF5420195DCA15E78355E9E2134
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+
