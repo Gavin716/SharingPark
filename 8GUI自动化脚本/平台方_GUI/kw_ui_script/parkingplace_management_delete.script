@@ -1,0 +1,21 @@
+# 该脚本为演示脚本
+打开浏览器,Firefox
+获取页面,http://192.168.159.131:8080/SharedParkingPlace
+输入,id=uname,pt
+输入,id=upass,123
+输入,id=imgcode,0000
+点击,id=button
+休眠,2
+点击,xpath=/html/body/div[2]/div[1]/div/div[1]/div[1]/div[1]
+休眠,1
+点击,xpath=/html/body/div[2]/div[1]/div/div[1]/div[2]/ul/li[1]/div/span[3]
+休眠,1
+进入iframe标签,id=testIframe
+休眠,1
+点击,xpath=/html/body/div[1]/div[2]/div[2]/div[2]/div[2]/table/tbody/tr[5]/td[1]/div/input
+点击,xpath=/html/body/div[1]/div[2]/div[1]/a[2]/span/span[2]
+休眠,3
+与期望值对比,xpath=/html/body/div[5]/div[2],删除成功
+休眠,3
+退出iframe标签
+关闭浏览器

@@ -1,0 +1,27 @@
+# 该脚本为演示脚本
+打开浏览器,Firefox
+获取页面,http://192.168.159.131:8080/SharedParkingPlace
+输入,id=uname,pt
+输入,id=upass,123
+输入,id=imgcode,0000
+点击,id=button
+休眠,2
+点击,xpath=/html/body/div[2]/div[1]/div/div[1]/div[1]/div[1]
+休眠,1
+点击,xpath=/html/body/div[2]/div[1]/div/div[1]/div[2]/ul/li[1]/div/span[3]
+休眠,1
+进入iframe标签,id=testIframe
+休眠,1
+点击,xpath=/html/body/div[1]/div[2]/div[1]/a[1]/span/span[1]
+输入,id=_easyui_textbox_input1,4006
+输入,id=_easyui_textbox_input2,1
+输入,id=_easyui_textbox_input3,b114bb4a-7782-4480-9cd4-e9c4726d648a
+输入,id=_easyui_textbox_input4,太平山停车场第7号
+输入,id=_easyui_textbox_input5,5
+输入,id=_easyui_textbox_input6,3
+点击,xpath=/html/body/div[2]/div[3]/a[1]/span/span[1]
+休眠,2
+与期望值对比,xpath=/html/body/div[5]/div[2],增加成功
+休眠,1
+退出iframe标签
+关闭浏览器
