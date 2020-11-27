@@ -1,0 +1,15 @@
+{
+
+    "打开浏览器": "open_browser",
+    "获取页面": "get_page",
+    "选择": "select",
+    "输入": "input",
+    "点击": "click",
+    "休眠": "sleep",
+    "断言存在元素": "assert_exist_element",
+    "确认弹窗": "alert",
+    "变更前查询数据库": "query_old_one",
+    "变更后查询数据库": "query_new_one",
+    "结果": "result",
+    "关闭浏览器": "close"
+}

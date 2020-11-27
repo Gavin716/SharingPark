@@ -1,0 +1,18 @@
+[
+    {
+        "path":"..\\testdata\\ws_case_ui.xlsx",
+        "sheet_name":"login",
+        "start_row":1,
+        "end_row":6,
+        "data_col":4,
+        "expect_col":5
+    },
+    {
+        "path":"..\\testdata\\ws_case_ui.xlsx",
+        "sheet_name":"customer",
+        "start_row":1,
+        "end_row":4,
+        "data_col":4,
+        "expect_col":5
+    }
+]
