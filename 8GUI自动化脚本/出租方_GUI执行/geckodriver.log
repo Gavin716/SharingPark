@@ -1,0 +1,27 @@
+1606123209084	mozrunner::runner	INFO	Running command: "D:\\firefox安装目录\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\17582\\AppData\\Local\\Temp\\rust_mozprofileCh7YI2"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606123217683	Marionette	INFO	Listening on port 36074
+1606123218169	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1606123332879	mozrunner::runner	INFO	Running command: "D:\\firefox安装目录\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\17582\\AppData\\Local\\Temp\\rust_mozprofileEyxUM3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606123336792	Marionette	INFO	Listening on port 36304
+1606123337055	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+[Parent 19088, Gecko_IOThread] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc, line 166
+1606123366366	Marionette	INFO	Stopped listening on port 36304
+
+###!!! [Child][Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606123369669	Marionette	INFO	Listening on port 36459
+1606123370159	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 271: NS_ERROR_FAILURE: Should pass a non-null uri
+1606124708140	Marionette	INFO	Stopped listening on port 36459
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
